@@ -1,0 +1,127 @@
+
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --BrightYellow: rgb(192, 223, 52);
+    --LightGray: hsl(204, 43%, 93%);
+    --GrayishBlue: hsl(218, 22%, 67%);
+    
+    }
+
+    .container{
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+.title{
+    color: var(--Cyan);
+    font-family: 'Karla', sans-serif, 700;
+    font-size: 1.5em;
+}
+
+
+
+.subtitle{
+    color: var(--BrightYellow);
+    font-family: 'Karla', sans-serif, 700;
+    font-size: 1.1em;
+}
+
+.description{
+    color: var(--GrayishBlue);
+    font-family: 'Karla', sans-serif, 400;
+    font-size: 1.0em;
+    line-height: 2.0;
+}
+
+.bg{
+    background-color: var(--Cyan);
+
+
+}
+
+.subtitle2{
+    color: var(--LightGray);
+    font-family: 'Karla', sans-serif, 700;
+    font-size: 1.1em;
+}
+
+.bg2{
+    background-color: hsl(179, 48%, 62%);
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.price{
+    color: var(--LightGray);
+    font-family: 'Karla' sans-serif, 400;
+    margin-bottom: 0.5em;
+    margin-top: 1.2em;
+}
+
+span{
+    font-size: 1.7em;
+    color: rgb(255, 255, 255);
+}
+
+.subpara{
+    color: var(--LightGray);
+    font-size: 1.0em;
+    margin-top: 0;
+}
+
+.btn-whatever{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(71, 73%, 54%);
+    font-size: small;
+
+}
+
+#center{
+    display: block;
+    margin: auto;
+    font-size: 1.1em;
+}
+
+.whyus{
+    font-size: 1.1em;
+    font-family: 'Karla' sans-serif, 700;
+    color: var(--LightGray);
+    
+}
+
+.list-group{
+    color: var(--LightGray);
+    line-height: 2.0;
+    font-family: 'Karla' sans-serif, 400;
+    
+
+}
+.list-item{
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+}
+
+.border{
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 576px) {
+    
+        /*.container{
+            max-width: 40%;
+
+
+        }*/
+
+        .bg{
+            
+            border-bottom-left-radius: 10px;
+        }
+
+        .bg2{
+            
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: unset;
+        }
+    
+    }
